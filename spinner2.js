@@ -1,4 +1,4 @@
-let spinnerCharacters = ['|', '/', '-', '\\', '|', '/', '-', '\\', '|', '|   \n'];
+let spinnerCharacters = ['|', '/', '-', '\\', '|', '/', '-', '\\', '|', '\r|   \n'];
 
 for (let x = 0; x < spinnerCharacters.length; x++) {
   if (spinnerCharacters[x] !== '\r|   \n') {
