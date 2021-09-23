@@ -1,7 +1,7 @@
-let spinnerCharacters = ['|', '/', '-', '\\', '|', '/', '-', '\\', '|', '\n'];
+let spinnerCharacters = ['|', '/', '-', '\\', '|', '/', '-', '\\', '|', '|   \n'];
 
 for (let x = 0; x < spinnerCharacters.length; x++) {
-  if (spinnerCharacters[x] !== '\n') {
+  if (spinnerCharacters[x] !== '\r|   \n') {
     spinnerCharacters[x] = `\r${spinnerCharacters[x]}   `;
   }
   setTimeout(() => {
